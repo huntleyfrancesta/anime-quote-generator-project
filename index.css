@@ -13,7 +13,7 @@ html {
 
 body {
     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/914668728147352083/08640E356492D5CA79630EAD902DA0F4B6B757AE/");
-    background-color: #cccccc;
+    background-color: pink
 }
 
 .mydiv {
@@ -56,110 +56,11 @@ img {
 }
 
 
-/* Next $ previous buttons
-    */
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: blueviolet;
-    font-weight: bold;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-
 /* on hover,add a baackground with a little bit of see-through*/
 
 .prev:hover,
 .next:hover {
     background-color: rgba(red, green, blue, alpha);
-}
-
-
-/* Caption text */
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%
-}
-
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: absolute;
-    top: 0;
-}
-
-
-/* The dots/bullets/indicators */
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 300px) {
-    .prev,
-    .next,
-    .text {
-        font-size: 11px
-    }
 }
 
 h1 {
